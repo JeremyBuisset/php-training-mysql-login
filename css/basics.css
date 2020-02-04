@@ -1,0 +1,58 @@
+body{
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  background-color: #E3E2DD;
+  text-align: center;
+}
+
+
+label, select, input{
+  width: 150px;
+  display: inline-block;
+  margin: 5px 0;
+}
+
+table, td{
+  border : 2px solid #212121;
+
+}
+
+table{
+  width : 75%;
+  margin : 0 auto;
+}
+
+td{
+  text-align: center;
+}
+
+header{
+  font-weight: bold;
+  font-size: 25px;
+  width: 100%;
+  height: 120px;
+  background-color: #212121;
+  color: ghostwhite;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#bar{
+  height: 40px;
+  width: 2px;
+  background-color: gray;
+}
+
+a{
+  text-decoration: none;
+  color: ghostwhite;
+}
+
+header > div {
+  font-style: italic;
+}
+
+h6{
+  display: none;
+}
